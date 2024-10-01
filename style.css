@@ -1,0 +1,161 @@
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 70px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  background: rgb(195, 118, 250);
+}
+.navbar h1{
+    color: hsl(240, 100%, 5%);
+    font-size: 3.3rem;
+    margin-right: 60vh;
+}
+.navbar ul{
+    display: flex;
+    gap: 2rem;
+}
+.navbar ul li{
+    list-style: none;
+    padding: 3px 15px 3px 15px;
+}
+.box1{
+    background-color: rgb(236, 20, 20);
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.photo {
+    width: 60%;
+}
+
+.photo h1 {
+    color:  hsl(240, 100%, 5%);
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+.photo p {
+    margin: 20px 0;
+}
+button{
+    display: inline-block;
+    background-color: hsl(5, 85%, 63%);
+    color:  hsl(240, 100%, 5%);
+    padding: 20px 30px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.new{
+    width: 30%;
+    background-color:hsl(240, 100%, 5%);
+    color: #fff;
+    padding: 20px;
+    margin-right: 470px;
+}
+
+.new h2 {
+    margin-bottom: 20px;
+    color:  hsl(35, 77%, 62%);
+}
+
+.new ul {
+    list-style: none;
+}
+
+.new ul li {
+    margin-bottom: 20px;
+}
+
+.new ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.new ul li p {
+    color: #bbb;
+    margin-top: 5px;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.article {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.article h3 {
+    margin: 20px 0;
+}
+
+.article p {
+    color: #666;
+}
+.container{
+    background-color: hsl(36, 100%, 99%);
+}
